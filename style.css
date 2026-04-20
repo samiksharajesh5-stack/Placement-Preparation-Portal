@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.dashboard-menu {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu-card {
+    flex: 1 1 250px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.menu-card a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+form input, form button {
+    padding: 8px;
+    margin: 5px 0;
+}
+
+form button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1f2a36;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Header */
+.resource-header {
+    background: linear-gradient(to right, #2c3e50, #34495e);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.resource-header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.resource-header p {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+/* Main container */
+.resource-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+/* Video cards */
+.video-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+.video-card:hover {
+    transform: translateY(-6px);
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.video-card h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+.video-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer */
+.resource-footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.resource-footer a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.resource-footer a:hover {
+    color: #1abc9c;
+}
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+/* Resume Page Styling */
+.resume-container {
+    max-width: 500px;
+    margin: 80px auto;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.resume-container h2 {
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+.upload-box {
+    margin-bottom: 30px;
+}
+
+.upload-box input[type="file"] {
+    display: block;
+    margin: 15px auto;
+    padding: 8px;
+}
+
+.upload-box button {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.upload-box button:hover {
+    background-color: #1f2f3d;
+}
+
+.resume-list {
+    margin-top: 15px;
+}
+
+.resume-list a {
+    display: inline-block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.resume-list a:hover {
+    text-decoration: underline;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #2c3e50;
+}
